@@ -1,0 +1,5 @@
+python main.py --mode train --data data.json --epochs 40 --batch_size 64 --lr 0.0005 --device cuda
+python main.py --mode train --data cornell_data.json --epochs 40 --batch_size 64 --lr 0.0005 --device cuda
+python main.py --mode train --data cornell --epochs 40 --batch_size 64 --lr 0.0005 --device cuda
+
+python main.py --mode chat --model_path enhanced_brain_model.pt --device cuda
